@@ -3,9 +3,10 @@ const app = express()
 
 
 app.get('/',(req,res)=>{
-  res.send('hello wolrd')
+  res.send('express yeah')
+  
 })
 
 
-app.listen(3000);
-console.log('server on port  3000')
+app.listen(8080);
+console.log('server on port  8080')
